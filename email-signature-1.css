@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    /* font-size: 1.2vw; */
+}
+body {
+    background-color: rgba(241, 226, 90, 0.911);
+}
+.email-signature-container {
+    width: 50vw;
+    height: 30vh;
+    margin-left: 50vw;
+    margin-top: 50vh;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display: flex;
+}
+.profile-picture {
+    width: 18vw;
+    height: 30vh;
+}
+.social-icons-div {
+    width: 4vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    color: #D4C546;
+    font-size: 2vw;
+}
+.signature-details-container {
+    width: 28vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.name-profession-container {
+    width: 25vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: #D4C546;
+}
+.profession {
+    font-size: 1vw;
+}
+.university-adress-div {
+    width: 28vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 1vw;
+}
+.fa-graduation-cap , .fa-map-marker-alt {
+    font-size: 1.2vw;
+    color: #D4C546;
+}
+.contact-details-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25vw;
+    height: 8vh;
+    font-size: 1vw;
+}
+.tele {
+    color: #D4C546;
+}

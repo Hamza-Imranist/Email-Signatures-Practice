@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Email Signature</title>
+    <link rel="stylesheet" href="email-signature-1.css">
+    <script src="https://kit.fontawesome.com/5a01f232c4.js" crossorigin="anonymous"></script>
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+body {
+    background-color: #04a192e1;
+}
+.email-signature-container {
+    width: 50vw;
+    height: 30vh;
+    margin-left: 50vw;
+    margin-top: 50vh;
+    transform: translate(-50%,-50%);
+    display: flex;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.profile-pic-div {
+    width: 16vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: white;
+}
+.profile-picture {
+    width: 12vw;
+    height: 25vh;
+    border-radius: 50%;
+    margin-left: 1vw;
+}
+.social-icons-div {
+    width: 4vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+a {
+    color: #003832;
+    font-size: 2vw;
+}
+.signature-details-container {
+    width: 28vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+}
+.name-profession-container {
+    width: 25vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: #003832;
+}
+.profession {
+    font-size: 1vw;
+}
+.university-adress-div {
+    width: 28vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 1vw;
+}
+.fa-graduation-cap , .fa-map-marker-alt {
+    font-size: 1.2vw;
+    color: #003832;
+}
+.contact-details-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25vw;
+    height: 8vh;
+    font-size: 1vw;
+}
+.tele {
+    color: #003832;
+}
+    </style>
+</head>
+<body>
+    <div class="email-signature-container">
+        <div class="profile-pic-div">
+            <img src="dp-girl-1.jpg" alt="profile-picture" class="profile-picture">
+        </div>
+        <div class="social-icons-div">
+            <div class="icon">
+                <a href="http://www.facebook.com/hamza.imranist/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </div>
+            <div class="icon">
+                <a href="http://www.twitter.com/imranist18/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/hamza-abbas-a64445150/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="signature-details-container">
+            <div class="name-profession-container">
+                <p class="name">Anjelina Vakil</p>
+                <p class="profession">Frontend Developer</p>
+            </div>
+            <div class="university-adress-div">
+                <p class="university"> <i class="fas fa-graduation-cap"></i> University of Engineering and Technology, Taxila</p>
+                <p class="adress"> &nbsp;<i class="fas fa-map-marker-alt"></i> &nbsp; Islamabad, Pakistan</p>
+            </div>
+            <div class="contact-details-div">
+                <p><span class="tele">Tel:</span> <span class="num">+923107943433</span></p>
+                <p><span class="tele">Mob:</span> <span class="num">+923117612904</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
